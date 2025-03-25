@@ -1,0 +1,130 @@
+04:12 24-07 [31merror[39m:	uncaughtException: Cannot read properties of undefined (reading 'split')
+TypeError: Cannot read properties of undefined (reading 'split')
+    at module.exports (C:\Users\petalis\VS-Workspace\ecommerce-demo\startup\db.js:6:64)
+    at Object.<anonymous> (C:\Users\petalis\VS-Workspace\ecommerce-demo\index.js:13:24)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+04:13 24-07 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+04:16 24-07 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+04:22 24-07 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+04:25 24-07 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+01:35 25-07 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+09:06 30-07 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+09:38 30-07 [31merror[39m:	Cast to ObjectId failed for value "admin" (type string) at path "categoryID" for model "Product"
+09:38 30-07 [31merror[39m:	Cast to ObjectId failed for value "accessories" (type string) at path "categoryID" for model "Product"
+11:17 30-07 [31merror[39m:	E11000 duplicate key error collection: MYBUSINESS_NAMEDB.categories index: category_name_1 dup key: { category_name: "Vegetables" }
+11:17 30-07 [31merror[39m:	Cast to ObjectId failed for value "favicon.ico" (type string) at path "categoryID" for model "Product"
+11:55 30-07 [31merror[39m:	No product found
+11:55 30-07 [31merror[39m:	Cast to ObjectId failed for value "favicon.ico" (type string) at path "categoryID" for model "Product"
+08:51 06-08 [31merror[39m:	No product found
+08:51 06-08 [31merror[39m:	No product found
+08:51 06-08 [31merror[39m:	No product found
+08:52 06-08 [31merror[39m:	No product found
+10:25 16-08 [31merror[39m:	No product found
+10:27 16-08 [31merror[39m:	No product found
+04:35 20-08 [31merror[39m:	Cast to ObjectId failed for value "admin" (type string) at path "categoryID" for model "Product"
+04:39 21-08 [31merror[39m:	Cast to ObjectId failed for value "admin" (type string) at path "categoryID" for model "Product"
+04:46 21-08 [31merror[39m:	No product found
+09:17 22-08 [31merror[39m:	No product found
+09:18 22-08 [31merror[39m:	No product found
+09:18 22-08 [31merror[39m:	Cast to ObjectId failed for value "admin" (type string) at path "categoryID" for model "Product"
+09:36 22-08 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+10:07 22-08 [31merror[39m:	E11000 duplicate key error collection: IMPALAFARMDB.specials index: special_name_1 dup key: { special_name: "NEW ARRIVALS" }
+10:11 22-08 [31merror[39m:	Cannot set headers after they are sent to the client
+10:22 22-08 [31merror[39m:	Cast to ObjectId failed for value "admin" (type string) at path "categoryID" for model "Product"
+10:28 22-08 [31merror[39m:	Cast to ObjectId failed for value "admin" (type string) at path "categoryID" for model "Product"
+10:30 22-08 [31merror[39m:	No product found
+10:33 22-08 [31merror[39m:	Cast to ObjectId failed for value "admin" (type string) at path "categoryID" for model "Product"
+10:49 26-08 [31merror[39m:	No product found
+10:26 26-08 [31merror[39m:	uncaughtException: Cannot find module 'cors'
+Require stack:
+- C:\Users\petalis\VS-Workspace\ecommerce-demo\startup\routes.js
+- C:\Users\petalis\VS-Workspace\ecommerce-demo\index.js
+Error: Cannot find module 'cors'
+Require stack:
+- C:\Users\petalis\VS-Workspace\ecommerce-demo\startup\routes.js
+- C:\Users\petalis\VS-Workspace\ecommerce-demo\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+    at Module._load (node:internal/modules/cjs/loader:984:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\petalis\VS-Workspace\ecommerce-demo\startup\routes.js:2:14)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\petalis\VS-Workspace\ecommerce-demo\index.js:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12)
+11:49 26-08 [31merror[39m:	No product found
+11:49 26-08 [31merror[39m:	No product found
+12:25 27-08 [31merror[39m:	No product found
+10:26 27-08 [31merror[39m:	No product found
+11:06 27-08 [31merror[39m:	No product found
+11:07 27-08 [31merror[39m:	No product found
+11:54 27-08 [31merror[39m:	No product found
+04:28 28-08 [31merror[39m:	Cannot read properties of undefined (reading 'toString')
+04:28 28-08 [31merror[39m:	Cannot read properties of undefined (reading 'toString')
+08:19 28-08 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+11:46 10-09 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+12:07 11-09 [31merror[39m:	No product found
+12:10 11-09 [31merror[39m:	No product found
+11:47 08-11 [31merror[39m:	uncaughtException: serviceWorkerRegistration is not defined
+ReferenceError: serviceWorkerRegistration is not defined
+    at Object.<anonymous> (C:\Users\petalis\VS-Workspace\ecommerce-demo\index.js:22:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+11:47 08-11 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+11:50 08-11 [31merror[39m:	uncaughtException: serviceWorkerRegistration is not defined
+ReferenceError: serviceWorkerRegistration is not defined
+    at Object.<anonymous> (C:\Users\petalis\VS-Workspace\ecommerce-demo\index.js:22:1)
+    at Module._compile (node:internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+11:50 08-11 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+11:51 08-11 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+09:10 03-12 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
+04:15 04-12 [31merror[39m:	uncaughtException: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16)
